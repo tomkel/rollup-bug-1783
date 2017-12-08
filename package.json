@@ -1,0 +1,16 @@
+{
+  "name": "rollup-bug-1783",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "git@github.com:tomkel/rollup-bug-1783.git",
+  "author": "Tommy Kelly <git@tkel.ly>",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "rollup": "^0.52.1",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
